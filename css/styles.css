@@ -1,0 +1,135 @@
+/*Remove default margins & paddings*/
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Global Styling*/
+
+body {
+    font-family: 'Roboto', arial, sans-serif;
+    color: #2d3c49;
+}
+
+a {
+    text-decoration: none;
+    color: #2d3c49;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 300;
+}
+
+.center {
+    text-align: center;
+}
+
+.resp-img {
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+.wrapper {
+    margin: 0 10px;
+}
+/*Header Styling*/
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #7d97ad;
+    margin: 4vw 0;
+}
+
+.logo {
+    max-width: 20vw;
+    max-height: 100%;
+    margin: 10px 0;
+}
+
+.header-text {
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: right;
+}
+
+.hero-img {
+    display: block;
+    margin: auto;
+}
+
+/*Featured Work Section Styling*/
+.featured {
+    color: #7d97ad;
+    margin-top: 10px;
+}
+
+.featured-work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 0 15px;
+}
+
+footer {
+    border-top: 1px solid #7d97ad;
+    font-style: italic;
+    color: #7d97ad;
+    font-weight: 200;
+    margin: 10px;
+    text-align: right;
+    font-size: 1em;
+    padding-top: 1em;
+}
+
+
+/*Media Queries*/
+
+@media screen and (min-width:450px) {
+    .logo {
+        max-width: 90px;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:1106px) {
+    .featured {
+        text-align: left;
+    }
+    .featured-work {
+        justify-content: space-between;
+    }
+    .featured-item {
+        width: 48%;
+    }
+    .wrapper {
+        padding: 0 20px;
+        width: 700px;
+        margin: 0 auto;
+    }
+    .hero-img {
+        width: 730px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width:1107px) {
+    .featured-work {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .wrapper {
+        width: 1100px;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+    .featured {
+        text-align: left;
+    }
+}
