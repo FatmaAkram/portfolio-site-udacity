@@ -1,4 +1,5 @@
 /*Remove default margins & paddings*/
+
 *,
 *:before,
 *:after {
@@ -6,6 +7,7 @@
     margin: 0;
     padding: 0;
 }
+
 
 /*Global Styling*/
 
@@ -38,6 +40,8 @@ h4 {
 .wrapper {
     margin: 0 10px;
 }
+
+
 /*Header Styling*/
 
 .header-container {
@@ -65,7 +69,9 @@ h4 {
     margin: auto;
 }
 
+
 /*Featured Work Section Styling*/
+
 .featured {
     color: #7d97ad;
     margin-top: 10px;
@@ -92,13 +98,13 @@ footer {
 
 /*Media Queries*/
 
-@media screen and (min-width:450px) {
+@media screen and (min-width: 450px) {
     .logo {
         max-width: 90px;
     }
 }
 
-@media screen and (min-width:700px) and (max-width:1106px) {
+@media screen and (min-width: 700px) and (max-width: 1106px) {
     .featured {
         text-align: left;
     }
@@ -119,7 +125,7 @@ footer {
     }
 }
 
-@media screen and (min-width:1107px) {
+@media screen and (min-width: 1107px) {
     .featured-work {
         width: 100%;
         justify-content: space-between;
