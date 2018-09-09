@@ -3,7 +3,7 @@ Udacity front-end nanodegree project01 | Responsive Portfolio Website
             
 The site including images, descriptions, and links are 100% responsive.
 
-Language used : HTML , CSS.
+Language used : HTML5 , CSS3.
 
 Live running : https://yuryletta.github.io/portfolio-site-udacity/ 
 
